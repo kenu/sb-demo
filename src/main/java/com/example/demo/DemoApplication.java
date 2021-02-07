@@ -17,6 +17,6 @@ public class DemoApplication {
     @RequestMapping("/")
     @ResponseBody
     public String demo() {
-        return "Hello docker!!";
+        return "Hello docker!";
     }
 }
